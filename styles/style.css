@@ -1,90 +1,15 @@
 * {
-  padding: 0px;
-  margin: 0px;
-  font-family: Mulish;
-  
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish";
 }
-header {
-  background-color: #ffffff;
-  padding: 20px;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-container{
-    display: flex;
-    gap: 10px;
-}
-.nav-title {
+.nav-details h2 {
   color: #131318;
   font-size: 36px;
   font-weight: 800px;
-  
 }
-.nav-title span {
+.nav-details span {
   color: #ff5400;
   font-size: 36px;
-  font-weight: 800px;
-}
-nav ul {
-  display: flex;
-}
-nav li {
-  list-style: none;
-  margin-right: 50px;
-}
-nav li a {
-  text-decoration: none;
-  color:#424247;
-text-align: center;
-font-size: 18px;
-font-weight: 400px;
-}
-.nav-title-home {
-  color: #ff5400;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 700;
-}
-.banner-container{
-    background-image: url(/resources/Images/Group\ 13\ \(1\)\ \(1\).png);
-    border-radius: 16px;
-background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-/* background: url("../resources/Banner\ Image.png"),
-lightgray 0px -150.131px / 100% 164.194% no-repeat; */
-height: 500px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    margin-right: 30px;
-    margin-top: 5px;
-}
-.banner-title h1{
-  color: #FFF;
-font-size: 64px;
-font-weight: 800px;
-text-align: center;
-}
-.banner-title p{
-  color: #FFF;
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-}
-.input-section{
-  align-items: center;
-  justify-content: center;
-  display: inline-flex;
-padding: 16px;
-align-items: flex-start;
-gap: 24px;
-border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
-}
-#find-now{
-  width: 174px;
-height: 52px;
-
+  font-weight: 800;
 }
