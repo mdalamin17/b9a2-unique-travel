@@ -1,24 +1,25 @@
 * {
   padding: 0px;
   margin: 0px;
-  background: #fff;
   font-family: Mulish;
+}
+body{
+  margin: 50px 135px;
 }
 .img-container {
   display: flex;
   gap: 10px;
-  margin-left: 10px;
 }
 .img-container h3 {
   margin-top: 10px;
   color: #131318;
   font-size: 36px;
-  font-weight: 800px;
+  font-weight: 800;
 }
 .img-container h3 span {
   color: #ff5400;
   font-size: 36px;
-  font-weight: 800px;
+  font-weight: 800;
 }
 nav ul {
   display: flex;
@@ -31,7 +32,7 @@ nav a {
   color: #424247;
   text-align: center;
   font-size: 18px;
-  font-weight: 400px;
+  font-weight: 400;
 }
 nav li {
   list-style: none;
@@ -40,63 +41,109 @@ nav li .home{
   color: #FF5400;
 text-align: center;
 font-size: 18px;
-font-weight: 700px;
+font-weight: 700;
 }
 .bg-container{
   border-radius: 16px;
-background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
   background-image: url(/resources/Images/Group\ 13\ \(1\)\ \(1\).png);
   background-position: center;
   background-size: cover;
   width: auto;
   height: 500px;
-  margin-left: 20px;
-  margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 20px;
+  position: relative;
+}
+.background-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
 }
 .bg-container-text{
-  justify-content: center;
-  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .selection-section{
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.30);
-  display: inline-flex;
+  display: flex;
+  flex-shrink: 0;
   padding: 16px;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
   gap: 24px;
-  width: 60%;
-  height: 30px;
-  background: #FFF;
+ 
+
+  
+}
+.selection-section input {
+  padding: 2px 5px;
+  border: 0;
+  border-radius:8px ;
+  height: 52px;
+  width: 174px;
+}
+.selection-section select {
+  padding: 2px 5px;
+  border: 0;
+  border-radius:8px ;
+  height: 52px;
+  width: 174px;
 }
 .primary-btn{
-  width: 100%;
-  height: 30px;
-  border-radius: 3px;
   background: #FF5400;
   border: 0px;
   color: #ffffff;
-}
-.selection-section input , select {
-  width: 100%;
-  height: 30px;
+  padding: 2px 5px;
+  border-radius:8px ;
+  height: 52px;
+  width: 174px;
 }
 .main-container{
   display: flex;
-  justify-content: center;
-  margin: 10px 20px 10px 20px;
+  gap: 30px;
+  margin: 20px 0px ;
+
 }
-.main-container-text{
+.main-container img{
+ 
+  width: 540px;
+  height: 550px;
+}
+.main-container .primary-btn{
+  margin-top: 10px;
+}
+.main-container-text ul{
+  list-style-position: inside;
+
+}
+.main-container-text li {
+  margin-bottom: 24px;
+}
+.main-container-text {
   color: rgba(19, 19, 24, 0.70);
-  font-family: Mulish;
   font-size: 16px;
-  font-weight: 400px;
+  font-weight: 400;
+  
+}
+.main-container-text p{
+  margin-bottom: 24px;
 }
 .main-container-title{
   color: #131318;
   font-size: 40px;
-  font-weight: 800px;
+  font-weight: 800;
+  margin-bottom: 24px;
 }
 .main-container-text button{
   width: 100px;
@@ -106,13 +153,13 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 
   color: #131318;
   text-align: center;
   font-size: 40px;
-  font-weight: 800px;
+  font-weight: 800;
 }
 .choose-destination-text p{
   color: rgba(19, 19, 24, 0.70);
   text-align: center;
   font-size: 16px;
-  font-weight: 400px;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 .row img{
@@ -138,7 +185,7 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 
   color: #131318;
   text-align: center;
   font-size: 40px;
-  font-weight: 50px;
+  font-weight: 50;
   margin-top: 20px;
 }
 .why-we-choose-text p{
@@ -210,7 +257,7 @@ footer{
   color: #5A5A5D;
 text-align: center;
 font-size: 16px;
-font-weight: 400px;
+font-weight: 400;
 }
 footer .img-container{
   justify-content: center;
